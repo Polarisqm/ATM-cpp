@@ -1,0 +1,24 @@
+# Build outputs
+/build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.app/
+
+# IDE files
+.vscode/
+.idea/
+*.user
+*.user.*
+
+# Local app data / accidental exports
+account.json
+*.log
