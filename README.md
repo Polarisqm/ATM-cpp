@@ -91,29 +91,4 @@ ATM-cpp/
 - `atmwindow.h/.cpp`: ventanas, formularios y acciones de la interfaz gráfica.
 - `CMakeLists.txt`: configuración de compilación con CMake.
 
-## Subirlo a GitHub
 
-Crea un repositorio vacío llamado `ATM-cpp` en GitHub. Desde la carpeta del proyecto:
-
-```bash
-git init
-git add .
-git commit -m "feat: create Qt C++ ATM simulator"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/ATM-cpp.git
-git push -u origin main
-```
-
-Reemplaza `TU-USUARIO` por tu usuario de GitHub. No subas la carpeta `build/` ni datos personales; están excluidos por `.gitignore`.
-
-## Próximas mejoras posibles
-
-- Pruebas automatizadas de la lógica de cuenta.
-- Cuentas múltiples y selección de usuario.
-- Exportación del historial a CSV.
-- Traducción de interfaz y tema claro/oscuro.
-- Separar el almacenamiento de datos de la lógica de negocio.
-
-## Licencia
-
-Este proyecto se distribuye bajo la licencia MIT. Consulta `LICENSE`.
